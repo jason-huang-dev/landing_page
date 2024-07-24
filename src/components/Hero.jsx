@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { jason, banner, worldmap, logoback } from '../assets';
+import { jason, banner, logoback } from '../assets';
 
 const Hero = () => {
   return (

@@ -2,12 +2,12 @@
   "name": "jason",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jason-huang-dev.github.io/jason-huang-dev.github.io/",
+  "homepage": "https://jason-huang-dev.github.io/landing-page/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

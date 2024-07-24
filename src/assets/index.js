@@ -1,11 +1,9 @@
 import banner from './backgrounds/banner.png';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
 import logoback from './backgrounds/logo-background.png'
 
 import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
 
 import jason from './personal/jason.png';
 
@@ -55,9 +53,7 @@ export {
   banner,
   nairobi,
   whiteabstract,
-  worldmap,
   logo,
-  logotext,
   jason,
   backend,
   ux,
