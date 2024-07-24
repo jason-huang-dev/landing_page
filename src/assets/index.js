@@ -1,5 +1,4 @@
 import banner from './backgrounds/banner.png';
-import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import logoback from './backgrounds/logo-background.png'
 
@@ -37,10 +36,10 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import cybertigers8075 from './company/cybertigers8075.png';
+import rutgers from './company/rutgers.png';
+import headstarterai from './company/headstarterai.png';
+import goldenunicorn from './company/goldenunicorn.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -51,7 +50,6 @@ import space from './projects/space-hub.png';
 
 export {
   banner,
-  nairobi,
   whiteabstract,
   logo,
   jason,
@@ -89,9 +87,9 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
   logoback,
+  goldenunicorn,
+  rutgers,
+  headstarterai,
+  cybertigers8075,
 };

@@ -37,12 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I’m a software engineer with a robust background in Computer Science and Economics. 
+        I focus on creating innovative solutions and engaging digital experiences, 
+        often exploring the latest advancements in technology, including artificial intelligence. 
+        Dive into my projects to see how I apply these cutting-edge technologies to solve complex problems and deliver impactful results.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

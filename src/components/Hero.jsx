@@ -11,6 +11,7 @@ const Hero = () => {
         <img
           src={banner}
           alt="Jason Huang Banner"
+          caption="Jason Huang Software Engineer Developer Banner"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
@@ -18,6 +19,7 @@ const Hero = () => {
         <img
           src={logoback}
           alt="Jason Huang Background Logo"
+          caption="Jason Huang Software Engineer Developer Logo"
           className="w-full h-full sm:hidden block object-cover"
         />
       </div>
@@ -46,8 +48,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Passionate software engineer with expertise in Computer Science and Economics. <br className="sm:block hidden" />
+              Crafting innovative solutions, exploring artificial intelligence, and building engaging digital experiences.
             </p>
           </div>
           <div

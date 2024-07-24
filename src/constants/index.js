@@ -23,10 +23,10 @@ import {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  rutgers,
+  cybertigers8075,
+  goldenunicorn,
+  headstarterai,
 } from '../assets';
 
 export const navLinks = [
@@ -46,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Full-Stack Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Software Development',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Automation & Scripting',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Cloud Solutions',
     icon: prototyping,
   },
 ];
@@ -124,32 +124,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'BS Computer Science + Economics',
+    company_name: 'Rutgers University',
+    icon: rutgers,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2022 - Jan 2026',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Coding Mentor (Volunteer)',
+    company_name: 'Cybertigers',
+    icon: cybertigers8075,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
+  },
+  {
+    title: 'Operations Manager',
+    company_name: 'Golden Unicorn',
+    icon: goldenunicorn,
+    iconBg: '#333333',
+    date: 'Oct 2019 - Present',
+  },
+  {
+    title: 'Software Engineer Fellow',
+    company_name: 'Headstarter AI',
+    icon: headstarterai,
+    iconBg: '#333333',
+    date: 'July 2024 - Sep 2024',
   },
 ];
 
