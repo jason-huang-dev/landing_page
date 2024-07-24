@@ -21,20 +21,22 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
+import aws from './tech/aws.png';
+import c from './tech/c.png';
 import css from './tech/css.png';
+import django from './tech/django.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import fastapi from './tech/fastapi.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
+import java from './tech/java.png';
 import javascript from './tech/javascript.png';
+import postgresql from './tech/postgresql.png';
+import postman from './tech/postman.png';
+import python from './tech/python.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
 
 import cybertigers8075 from './company/cybertigers8075.png';
 import rutgers from './company/rutgers.png';
@@ -49,6 +51,13 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  aws,
+  c,
+  django,
+  fastapi,
+  java,
+  postman,
+  python,
   banner,
   whiteabstract,
   logo,
@@ -69,17 +78,12 @@ export {
   sendHover,
   css,
   docker,
-  figma,
   git,
-  graphql,
   html,
   javascript,
   nodejs,
   postgresql,
-  rubyrails,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   komikult,
   leaderboard,

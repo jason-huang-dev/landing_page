@@ -8,21 +8,22 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   git,
-  figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
   komikult,
+  aws,
+  c,
+  django,
+  fastapi,
+  java,
+  postman,
+  python,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   rutgers,
   cybertigers8075,
   goldenunicorn,
@@ -69,6 +70,30 @@ const technologies = [
     icon: html,
   },
   {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'Amazon Web Services',
+    icon: aws,
+  },
+  {
+    name: 'C Programming Language',
+    icon: c,
+  },
+  {
+    name: 'Django',
+    icon: django,
+  },
+  {
+    name: 'Fast API',
+    icon: fastapi,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
     name: 'CSS 3',
     icon: css,
   },
@@ -85,24 +110,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
   },
   {
     name: 'postgresql',
@@ -113,12 +122,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'Postman',
+    icon: postman,
   },
 ];
 
