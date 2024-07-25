@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
+import SocialLinks from './SocialLinks';
 
 const Contact = () => {
   const formRef = useRef();
@@ -68,7 +69,7 @@ const Contact = () => {
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
-
+        <SocialLinks color='taupe'/>
         <form
           ref={formRef}
           onSubmit={handleSubmit}

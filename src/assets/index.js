@@ -49,6 +49,8 @@ import csRU from './projects/csRU.png';
 import linkedin from './socials/linkedin.png';
 import githubsocial from './socials/githubsocial.png';
 import youtube from './socials/youtube.png';
+import instagram from './socials/instagram.png';
+import leetcode from './socials/leetcode.png';
 
 export {
   aws,
@@ -95,4 +97,6 @@ export {
   linkedin,
   githubsocial,
   youtube,
+  instagram,
+  leetcode,
 };

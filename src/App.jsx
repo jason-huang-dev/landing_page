@@ -1,4 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
+import Footer from './components/Footer';
 import {
   About,
   Contact,
@@ -40,6 +41,7 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

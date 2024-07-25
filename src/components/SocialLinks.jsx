@@ -3,7 +3,7 @@ import { socials } from '../constants';
 
 const SocialLinks = () => {
   return (
-    <div className="social-links flex space-x-1">
+    <div className="social-links flex flex-wrap space-x-1">
       {socials.map((social) => (
         <a
           key={social.name}
@@ -15,8 +15,8 @@ const SocialLinks = () => {
           <img
             src={social.icon}
             alt={social.name}
-            className="w-12 h-12 object-contain"
-          />
+            className="w-7 h-7 sm:w-7 sm:h-7 md:w-10 md:h-10 lg:w-12 lg:h-12 object-contain"          
+            />
         </a>
       ))}
     </div>

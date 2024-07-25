@@ -28,6 +28,8 @@ import {
   linkedin,
   githubsocial,
   youtube,
+  instagram,
+  leetcode,
 } from '../assets';
 
 export const navLinks = [
@@ -224,6 +226,16 @@ const socials = [
     name: 'Youtube',
     url: 'https://www.youtube.com/@JasonHuangDev',
     icon: youtube,
+  },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/jasonhuangdev/',
+    icon: instagram,
+  },
+  {
+    name: 'Leetcode',
+    url: 'https://leetcode.com/jason-huang-dev/',
+    icon: leetcode,
   },
   // Add more social media links here
 ]
