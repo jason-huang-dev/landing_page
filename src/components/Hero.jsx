@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { jason, banner, logoback } from '../assets';
+import SocialLinks from './SocialLinks';
 
 const Hero = () => {
   return (
@@ -51,6 +52,7 @@ const Hero = () => {
               Passionate software engineer with expertise in Computer Science and Economics. <br className="sm:block hidden" />
               Crafting innovative solutions, exploring artificial intelligence, and building engaging digital experiences.
             </p>
+            <SocialLinks />
           </div>
           <div
             className="w-screen flex flex-col items-start 
@@ -81,7 +83,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img

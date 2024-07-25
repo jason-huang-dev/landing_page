@@ -25,6 +25,9 @@ import {
   headstarterai,
   csRU,
   marketbot,
+  linkedin,
+  githubsocial,
+  youtube,
 } from '../assets';
 
 export const navLinks = [
@@ -206,4 +209,24 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const socials = [
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/jasonhuangdev',
+    icon: linkedin,
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/jason-huang-dev',
+    icon: githubsocial,
+  },
+  {
+    name: 'Youtube',
+    url: 'https://www.youtube.com/@JasonHuangDev',
+    icon: youtube,
+  },
+  // Add more social media links here
+]
+
+
+export { services, technologies, experiences, projects, socials };

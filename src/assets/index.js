@@ -43,8 +43,12 @@ import rutgers from './company/rutgers.png';
 import headstarterai from './company/headstarterai.png';
 import goldenunicorn from './company/goldenunicorn.png';
 
-import marketbot from './projects/marketbot.png'
-import csRU from './projects/csRU.png'
+import marketbot from './projects/marketbot.png';
+import csRU from './projects/csRU.png';
+
+import linkedin from './socials/linkedin.png';
+import githubsocial from './socials/githubsocial.png';
+import youtube from './socials/youtube.png';
 
 export {
   aws,
@@ -88,4 +92,7 @@ export {
   cybertigers8075,
   marketbot,
   csRU,
+  linkedin,
+  githubsocial,
+  youtube,
 };
