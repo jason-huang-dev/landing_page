@@ -43,12 +43,8 @@ import rutgers from './company/rutgers.png';
 import headstarterai from './company/headstarterai.png';
 import goldenunicorn from './company/goldenunicorn.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import marketbot from './projects/marketbot.png'
+import csRU from './projects/csRU.png'
 
 export {
   aws,
@@ -85,15 +81,11 @@ export {
   postgresql,
   reactjs,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   logoback,
   goldenunicorn,
   rutgers,
   headstarterai,
   cybertigers8075,
+  marketbot,
+  csRU,
 };
